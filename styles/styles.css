@@ -41,6 +41,11 @@ p, li {
     letter-spacing: 1px;
 }
 
+a {
+    font-size: 20px;
+}
+
+
 /*.note {
     width: 600px;
     margin: 20px 80px;
