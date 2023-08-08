@@ -36,6 +36,23 @@
     <h2>Anatomie d'un élément HTML</h2>
     <p>Regardons notre élément paragraphe d'un peu plus près:</p>
     <img src="images/chat-grincheuxl.png" alt="anatomie d'un élément HTML">
+    <p>
+        Les principales parties de notre élément sont:
+        <ul> 
+            <li>balise ouvrante: il s'agit du nom de l'élément (dans ce cas, <i>p</i>), encadré par un <b>chevron ouvrant</b>(&lt;) et  un chevron fermant (&gt;). Elle indique où l'élément commence ou commence à prendre effet - dans ce cas où commence le paragraphe.</li>
+            <li>Le contenu: il s'agit du contenu de l'élément. Dans notre cas, c'est simplement du texte.
+            <li>La balise fermante: c'est la même que la balise ouvrante, sauf qu'elle comprend une <b>barre oblique</b>(/) avant le nom de l'élément. Elle indique la fin de l'élément - dans ce cas, la fin du paragraphe. Ne pas inclure de balise de fermeture est une erreur fréquente chez les débutants, et peut amener des résultats étranges.
+        </ul>
+        La balise ouvrante, suivie par le contenu puis la balise fermante, compose ensemble l'élément.
+    </p>
+    <h2>Eléments imbriqués</h2>
+    <p>
+        Vous pouvez mettre des éléments à l'intérieur d'autres éléments - cela s'appelle l'<b>imbrication</b>. 
+        Si vous voulez affirmer que votre chat est très grincheux, vous pouvez mettre le mot "très" dans l'élément <u>&lt;strong&gt;</u>, pour qu'il soit fortement mis en valeur:
+    </p>
+    <p class="exemple">
+        &lt;p&gt;Mon chat est &lt;strong&gt;très&lt;/strong&gt; grincheux. &lt;/p&gt;
+    </p>
 
 </body>
 <script src="scripts/main.js"></script>
