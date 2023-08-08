@@ -53,6 +53,27 @@
     <p class="exemple">
         &lt;p&gt;Mon chat est &lt;strong&gt;très&lt;/strong&gt; grincheux. &lt;/p&gt;
     </p>
+    <p>
+        Vous devez toutefois vous assurez que vos éléments sont correctement imbriqués: dans l'exemple ci-dessu, nous avons ouvert l'élément <strong>p</strong> en premier, 
+        puis l'élément <strong>strong</strong>, donc nous devons fermer l'élément <strong>strong</strong> d'abord, pui l'élément <strong>p</strong>.
+    </p>
+    <h2>Éléments bloc vs en ligne</h2>
+    <p>
+        Il existe deux catégories importantes d'élément en HTML que vous devez connaître: les éléments de niveau bloc et les éléments en ligne:
+        <ul>
+            <li>
+                Les élements de niveau <b>bloc</b> forment <b>un bloc visible sur une page</b> - ils apparaissent sur une nouvelle ligne quel que soit le contenu précédent 
+                et tout contenu qui les suit apparaît également sur une nouvelle ligne. Les éléments de niveau bloc sont souvent des éléments struturels de la page et représentent,
+                par exemple, des paragraphe, des listes, des menus de navigation, des pieds de page; etc. <mark>Un élément de niveau bloc ne peut pas être imbriqué dans un élément en ligne <b>mais</b> 
+                il peut être imbriqué dans un autre élément de niveau bloc.</mark> 
+            </li>
+            <li>
+                Les élément en <b>ligne</b> sont contenus <b>dans des élément de niveau bloc</b>. Il entourent seulement des petites parties du contenu du document, ni des paragraphe entier, ni des regroupement de contenu.
+                Un élément en ligne ne fait pas apparaître une nouvelle ligne dans le document. Il apparaît généralement dans un paragraphe de texte, par exemple un élément <b>&lt;a&gt;</b> (hyperlien) ou des 
+                éléments de mise en évidence tels que &lt;em&gt; ou &lt;strong&gt;.
+            </li>
+        </ul>
+    </p>
 
 </body>
 <script src="scripts/main.js"></script>
